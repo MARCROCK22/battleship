@@ -1,0 +1,45 @@
+lockfileVersion: 5.3
+
+specifiers:
+  imagescript: github:matmen/imagescript
+  node-fetch: '2'
+
+devDependencies:
+  imagescript: github.com/matmen/imagescript/2823017bfe7776e7871074c13772154a91db34a2
+  node-fetch: 2.6.7
+
+packages:
+
+  /node-fetch/2.6.7:
+    resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+    dependencies:
+      whatwg-url: 5.0.0
+    dev: true
+
+  /tr46/0.0.3:
+    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    dev: true
+
+  /webidl-conversions/3.0.1:
+    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    dev: true
+
+  /whatwg-url/5.0.0:
+    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    dependencies:
+      tr46: 0.0.3
+      webidl-conversions: 3.0.1
+    dev: true
+
+  github.com/matmen/imagescript/2823017bfe7776e7871074c13772154a91db34a2:
+    resolution: {tarball: https://codeload.github.com/matmen/imagescript/tar.gz/2823017bfe7776e7871074c13772154a91db34a2}
+    name: imagescript
+    version: 1.2.9
+    engines: {node: '>=14.0.0'}
+    dev: true
