@@ -5,8 +5,8 @@ declare namespace GameBattleShip {
         boardsAttacked: [number[][], number[][]];
         turn: 0 | 1;
         canPlayShips: [number[], number[]];
-        chooseShip(player: 0 | 1, ship: number, x: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9, y: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9, orientation: 'h' | 'v'): void
-        attack(x: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9, y: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9): void
+        chooseShip(player: 0 | 1, ship: number, x:number, y:number, orientation: 'h' | 'v'): void
+        attack(x: number, y:number): void
         get alternTurn(): 1 | 0
         checkIfWin(): boolean
         get finished(): boolean
